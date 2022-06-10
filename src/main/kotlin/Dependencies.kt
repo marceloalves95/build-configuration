@@ -22,6 +22,7 @@ object Dependencies {
     const val compose_material_icons_extended="androidx.compose.material:material-icons-extended:${Version.compose_version}"
     const val compose_livedata="androidx.compose.runtime:runtime-livedata:${Version.compose_version}"
     const val compose_ui_test="androidx.compose.ui:ui-test-junit4:${Version.compose_version}"
+    const val compose_activity="androidx.activity:activity-compose:${Version.activity_compose}"
 
     const val navigation_fragment="androidx.navigation:navigation-fragment-ktx:${Version.navigation_version}"
     const val navigation_ui="androidx.navigation:navigation-ui-ktx:${Version.navigation_version}"

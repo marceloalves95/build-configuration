@@ -30,6 +30,7 @@ fun DependencyHandlerScope.gradleDependencies(){
     "implementation"(Dependencies.kotlin_gradle)
     "implementation"(Dependencies.core_gradle_plugin)
 }
+
 fun DependencyHandlerScope.kotlin(){
     "implementation"(Dependencies.kotlin)
     "implementation"(Dependencies.kotlin_jdk)
@@ -53,6 +54,8 @@ fun DependencyHandlerScope.lifecycle(){
     "implementation"(Dependencies.lifecycle_viewmodel)
 }
 fun DependencyHandlerScope.compose(){
+    "implementation"(Dependencies.core_ktx)
+    "implementation"(Dependencies.compose_activity)
     "implementation"(Dependencies.compose_ui)
     "implementation"(Dependencies.compose_tooling)
     "implementation"(Dependencies.compose_foundation)
@@ -100,5 +103,7 @@ fun DependencyHandlerScope.roomTest(){
     "testImplementation"(Dependencies.room_testing)
 }
 fun DependencyHandlerScope.composeTest(){
+    junit()
+    espresso()
     "androidTestImplementation"(Dependencies.compose_ui_test)
 }

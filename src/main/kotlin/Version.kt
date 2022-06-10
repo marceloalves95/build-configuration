@@ -11,6 +11,7 @@ object Version {
     const val appcompat_version="1.4.1"
     const val material_version="1.5.0"
     const val compose_version="1.1.1"
+    const val activity_compose="1.4.0"
     const val view_binding_version="7.1.2"
     const val constraint_layout_version="2.1.3"
     const val navigation_version="2.4.1"
